@@ -31,13 +31,15 @@ Tuberculosis is a serious infectious disease that requires early and accurate di
 
 ## How to Run the Notebook
 1. **Setup**:
+   - Request access to the dataset here: `https://docs.google.com/spreadsheets/d/1oZ7lstU1XsSs8hu1NIviey87IT8e8J-ee7OwAximtvE/edit?usp=sharing`.
+   - Once granted access, download the dataset as csv file.
    - Upload the `TB-Dataset.csv` to your Google Drive under `/content/drive/MyDrive/`.
    - Ensure the following libraries are installed:
      ```
      pandas, numpy, matplotlib, seaborn, scikit-learn
      ```
 
-2. **Open in Google Colab**:
+3. **Open in Google Colab**:
    - Upload the notebook `tuberculosis-classification-ml.ipynb` to Colab.
    - Mount Google Drive when prompted:
      ```python
@@ -45,11 +47,11 @@ Tuberculosis is a serious infectious disease that requires early and accurate di
      drive.mount('/content/drive')
      ```
 
-3. **Run the Notebook**:
+4. **Run the Notebook**:
    - Execute cells sequentially to load data, preprocess, visualize, and train models.
    - Adjust model hyperparameters for experimentation.
 
-4. **Data Path**:
+5. **Data Path**:
    - Ensure the dataset path in the notebook matches your Drive location:
      ```python
      file_path = r"/content/drive/MyDrive/TB-Dataset.csv"
